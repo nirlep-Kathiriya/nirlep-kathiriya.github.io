@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Nirlep Kathiriya — Software Developer</title>
-<meta name="description" content="Nirlep Kathiriya — Software Developer specializing in large-scale data systems, distributed computing, and ML-powered platforms.">
+<title>Nirlep Kathiriya — Software Engineer</title>
+<meta name="description" content="Nirlep Kathiriya — Software Engineer specializing in data engineering, distributed systems, and backend platforms.">
 <style>
   :root{
     --bg:#0a0e17;--bg2:#0f1524;--card:#131a2b;--line:#1f2940;
@@ -130,6 +130,7 @@
   <div class="navlinks">
     <a href="#about">About</a>
     <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
     <a href="#skills">Skills</a>
     <a href="#education">Education</a>
     <a href="#contact">Contact</a>
@@ -140,10 +141,10 @@
   <div class="glow g1"></div>
   <div class="glow g2"></div>
   <div class="wrap">
-    <div class="eyebrow">Software Developer</div>
+    <div class="eyebrow">Software Engineer · Data &amp; Distributed Systems</div>
     <h1>Nirlep <span class="grad-text">Kathiriya</span></h1>
-    <p class="tag">I build large-scale data systems and distributed platforms — turning multi-day pipelines into minutes and shipping ML-powered services to production.</p>
-    <p class="loc">📍 San Jose, CA</p>
+    <p class="tag">I build large-scale data systems and distributed platforms — turning multi-day pipelines into minutes and shipping reliable backend services to production.</p>
+    <p class="loc">📍 Union City, CA · Open to relocate</p>
     <div class="cta">
       <a class="btn btn-p" href="#contact">Get in touch</a>
       <a class="btn btn-s" href="#experience">View experience</a>
@@ -161,9 +162,9 @@
 <section id="about" class="about">
   <div class="wrap">
     <div class="sec-label">About</div>
-    <h2>Senior-level data &amp; distributed systems engineer</h2>
-    <p>I'm a software developer focused on the infrastructure behind large-scale data and machine-learning workflows. My work spans high-performance distributed pipelines, microservices architecture, and ML-assisted decision systems that operate reliably at production scale.</p>
-    <p>I've delivered a 100x+ runtime reduction for inventory pipelines across heterogeneous storage, architected a microservices-based IAM platform handling thousands of daily requests, and led the integration of LLM- and RAG-based decision support that cut manual review effort dramatically. I work closely with data scientists to power ML workflows end to end — and I care about reliability, latency, and clean developer experience.</p>
+    <h2>Data &amp; distributed systems engineer</h2>
+    <p>I'm a software engineer with 5+ years in data engineering and distributed systems. I build the pipelines, services, and platforms behind large-scale data — with a focus on reliability, latency, and clean, maintainable code.</p>
+    <p>At TikTok I took distributed scanning pipelines from days down to minutes (100x+), built a microservices-based IAM platform that auto-resolves 96% of ~3,000 daily access requests, and added LLM-based decision support that cut review time from hours to minutes. Most recently, I single-handedly migrated an access-data ETL pipeline — 200+ Python and SQL scripts — from the Virginia region to Singapore as part of TikTok's US / rest-of-world data separation.</p>
   </div>
 </section>
 
@@ -171,7 +172,7 @@
   <div class="wrap">
     <div class="sec-label">Experience</div>
     <h2>The path so far</h2>
-    <p class="sec-sub">A timeline of where I've grown — from analytics into the deep end of distributed systems.</p>
+    <p class="sec-sub">A timeline of where I've grown — from SQL and data workflows into the deep end of distributed systems.</p>
     <div class="hint"><span class="dot"></span> Hover any node to branch out the details</div>
 
     <div class="tree">
@@ -179,19 +180,20 @@
       <div class="node">
         <div class="node-card">
           <div class="node-head">
-            <div><span class="node-role">Software Developer</span> · <span class="node-co">TikTok</span></div>
-            <div class="node-date">Jan 2024 – Present</div>
+            <div><span class="node-role">Sr. Backend Engineer</span> · <span class="node-co">TikTok</span></div>
+            <div class="node-date">Jun 2026 – Sep 2026 · Contract · San Jose, CA</div>
           </div>
-          <div class="node-blurb">Owning the data infrastructure and ML-assisted platforms that keep things fast and trustworthy at scale.</div>
+          <div class="node-blurb">Fixed, optimized, and migrated the pipeline that maps every employee to the resources they can access.</div>
           <div class="node-detail"><div class="node-detail-inner">
             <ul>
-              <li>Rebuilt distributed scanning and inventory pipelines across a messy mix of NoSQL, key-value, MySQL, and RDS — and took runtimes from <strong>days down to minutes</strong> (100x+) while holding 99%+ reliability.</li>
-              <li>Designed an IAM platform on a microservices backbone that blends rule-based and ML decisioning — it now auto-resolves <strong>96% of ~3,000 daily access requests</strong>.</li>
-              <li>Brought LLMs into our approval flows, collapsing 5–6 hour reviews to ~10 minutes and freeing up most of a 35-person review team.</li>
-              <li>Shipped a RAG service pairing vector search with structured filters for risk and compliance questions in production.</li>
-              <li>Tuned heavy workloads with PySpark and Ray, and orchestrated pipelines with ZooKeeper and Apache Helix.</li>
+              <li>Maintained and fixed production ETL pipelines that pull data from source Hive tables, transform it, and load it back into Hive, producing a consolidated access table of ~100 GB.</li>
+              <li>Combined daily access data from <strong>7+ authorization systems</strong> with employee records into one view of who can access what.</li>
+              <li>Independently led a <strong>4-month migration</strong> of the entire pipeline from the Virginia region to Singapore, moving <strong>200+ Python and SQL scripts</strong> without interrupting daily processing.</li>
+              <li>Moved the databases from MSSQL to TikTok's internal RDS platform to cut infrastructure costs.</li>
+              <li>Optimized long-running Spark jobs and built a Redis-based disaster-recovery layer so downstream teams kept getting data during pipeline failures.</li>
+              <li>Wrote a design document proposing a shared, Git-versioned library of reusable UDFs to replace duplicated pipeline code.</li>
             </ul>
-            <div class="node-tags"><span>Python</span><span>Java</span><span>PySpark</span><span>Ray</span><span>LLM</span><span>ZooKeeper</span><span>Helix</span><span>Snowflake</span></div>
+            <div class="node-tags"><span>Spark</span><span>Hive</span><span>Python</span><span>SQL</span><span>Redis</span><span>MSSQL</span><span>RDS</span></div>
           </div></div>
         </div>
       </div>
@@ -199,18 +201,19 @@
       <div class="node">
         <div class="node-card">
           <div class="node-head">
-            <div><span class="node-role">Data Engineer</span> · <span class="node-co">Freddie Mac</span></div>
-            <div class="node-date">Jul 2023 – Jan 2024</div>
+            <div><span class="node-role">Data Defense and Operations Analyst</span> · <span class="node-co">TikTok</span></div>
+            <div class="node-date">Jan 2024 – May 2026 · Full-time · New York, NY</div>
           </div>
-          <div class="node-blurb">Built the pipelines and dashboards that turned high-volume data into decisions people could act on.</div>
+          <div class="node-blurb">Built the data infrastructure and access platforms that keep things fast and secure at scale.</div>
           <div class="node-detail"><div class="node-detail-inner">
             <ul>
-              <li>Stood up AWS data pipelines (S3, Glue, Lambda) for dependable ingestion and processing of large datasets.</li>
-              <li>Tuned SQL with smart indexing and partitioning, trimming <strong>report generation time by ~40%</strong>.</li>
-              <li>Built Tableau dashboards that opened up real-time reporting for the business.</li>
-              <li>Helped launch a Snowflake platform fronted by FastAPI microservices for data-science teams.</li>
+              <li>Built distributed scanning and inventory pipelines across RDS, ClickHouse, Redis, Hive, and HBase — taking runtimes from <strong>days down to minutes</strong> (100x+) while holding 99%+ SLA.</li>
+              <li>Tuned Spark and Ray workloads (partition skew, executor memory, sampling) and built pipeline orchestration on ZooKeeper and Apache Helix.</li>
+              <li>Designed a microservices-based IAM access platform that auto-resolves <strong>96% of ~3,000 daily access requests</strong>.</li>
+              <li>Built backend services in Python and Node.js with a React.js frontend, plus a Python SDK that standardized inter-service communication on ByteCloud.</li>
+              <li>Added LLM-based decision support, cutting reviews from 5–6 hours to ~10 minutes and manual effort from 35 FTEs to 4.</li>
             </ul>
-            <div class="node-tags"><span>Python</span><span>SQL</span><span>AWS</span><span>Snowflake</span><span>FastAPI</span><span>Tableau</span></div>
+            <div class="node-tags"><span>Python</span><span>Java</span><span>Spark</span><span>Ray</span><span>ClickHouse</span><span>ZooKeeper</span><span>Helix</span><span>Node.js</span><span>React</span><span>LLM</span></div>
           </div></div>
         </div>
       </div>
@@ -218,21 +221,60 @@
       <div class="node">
         <div class="node-card">
           <div class="node-head">
-            <div><span class="node-role">Data Analyst</span> · <span class="node-co">Evenmore Infotech</span></div>
-            <div class="node-date">May 2019 – Jun 2021</div>
+            <div><span class="node-role">Data Engineer</span> · <span class="node-co">Royal Monarch Solutions</span></div>
+            <div class="node-date">Jul 2023 – Jan 2024 · Contract · Dallas, TX</div>
           </div>
-          <div class="node-blurb">Where it started — wrangling data, sharpening SQL, and learning to make pipelines fast.</div>
+          <div class="node-blurb">Built the real-time transaction services and event-driven systems behind high-volume data.</div>
           <div class="node-detail"><div class="node-detail-inner">
             <ul>
-              <li>Wrote advanced SQL (window functions, CTEs, layered joins) that pulled query latency from <strong>800ms to 250ms</strong>.</li>
+              <li>Built Java Spring Boot microservices exposing REST APIs for high-volume real-time transactional data, with validation, versioning, and consistent error handling.</li>
+              <li>Built event-driven systems with Apache Kafka on AWS (Docker, Kubernetes, multi-AZ, S3, IAM, VPC), reaching <strong>99.99% uptime</strong>.</li>
+              <li>Applied sharding, indexing, and caching across MongoDB and other NoSQL stores, improving query latency by <strong>~40%</strong>.</li>
+            </ul>
+            <div class="node-tags"><span>Java</span><span>Spring Boot</span><span>Kafka</span><span>AWS</span><span>Docker</span><span>Kubernetes</span><span>MongoDB</span></div>
+          </div></div>
+        </div>
+      </div>
+
+      <div class="node">
+        <div class="node-card">
+          <div class="node-head">
+            <div><span class="node-role">Software Developer</span> · <span class="node-co">Evenmore Infotech</span></div>
+            <div class="node-date">May 2019 – Jun 2021 · Contract · Gujarat, India</div>
+          </div>
+          <div class="node-blurb">Where it started — data workflows, SQL performance, and enterprise web apps.</div>
+          <div class="node-detail"><div class="node-detail-inner">
+            <ul>
+              <li>Wrote advanced SQL (window functions, CTEs, complex joins) that pulled query latency from <strong>800 ms to 250 ms</strong>.</li>
               <li>Automated Snowflake pipelines end to end, cutting processing turnaround by ~50%.</li>
-              <li>Partnered with analysts, scientists, and engineers, and coached client teams on Git best practices.</li>
+              <li>Built Spring MVC admin portals and Spring-based REST APIs connecting them to backend data services.</li>
+              <li>Wrote unit and integration tests and took part in code reviews to reduce production defects.</li>
             </ul>
-            <div class="node-tags"><span>Python</span><span>Advanced SQL</span><span>Snowflake</span><span>Git</span></div>
+            <div class="node-tags"><span>Python</span><span>Advanced SQL</span><span>Snowflake</span><span>Spring MVC</span><span>Java</span></div>
           </div></div>
         </div>
       </div>
 
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="wrap">
+    <div class="sec-label">Projects</div>
+    <h2>Things I've built</h2>
+    <p class="sec-sub">Side projects from my GitHub.</p>
+    <div class="skills">
+      <a class="skcard" href="https://github.com/nirlep-Kathiriya/Hostel-management-system" target="_blank" rel="noopener">
+        <h3>Hostel Management System ↗</h3>
+        <p style="color:var(--muted);font-size:14px;margin-bottom:14px">Full-stack web app with admin and student portals for admissions, room allocation, fee payments, complaints, and feedback — with role-based access, email OTP password reset, and document uploads to AWS S3.</p>
+        <div class="chips"><span class="chip">Java</span><span class="chip">Spring Boot</span><span class="chip">Spring Security</span><span class="chip">Hibernate</span><span class="chip">MySQL</span><span class="chip">AWS S3</span></div>
+      </a>
+      <a class="skcard" href="https://github.com/nirlep-Kathiriya/product-recommendation-system" target="_blank" rel="noopener">
+        <h3>Product Recommendation System ↗</h3>
+        <p style="color:var(--muted);font-size:14px;margin-bottom:14px">Item-to-item recommender built from retail transactions: a weighted product co-purchase graph with Louvain community detection, serving top-5 recommendations through a Flask web app.</p>
+        <div class="chips"><span class="chip">Python</span><span class="chip">pandas</span><span class="chip">NetworkX</span><span class="chip">Flask</span><span class="chip">SQLAlchemy</span></div>
+      </a>
     </div>
   </div>
 </section>
@@ -245,7 +287,7 @@
     <div class="skills">
       <div class="skcard">
         <h3>Languages</h3>
-        <div class="chips"><span class="chip">Python</span><span class="chip">Java</span><span class="chip">SQL</span><span class="chip">Node.js</span></div>
+        <div class="chips"><span class="chip">Python</span><span class="chip">Java</span><span class="chip">SQL</span><span class="chip">JavaScript</span><span class="chip">Node.js</span><span class="chip">React</span></div>
       </div>
       <div class="skcard">
         <h3>Frameworks</h3>
@@ -253,7 +295,7 @@
       </div>
       <div class="skcard">
         <h3>Data &amp; Big Data</h3>
-        <div class="chips"><span class="chip">PySpark</span><span class="chip">Hive</span><span class="chip">ETL Pipelines</span><span class="chip">Data Modeling</span><span class="chip">Tableau</span></div>
+        <div class="chips"><span class="chip">Spark (PySpark)</span><span class="chip">Hive</span><span class="chip">ETL Pipelines</span><span class="chip">Data Modeling</span><span class="chip">Tableau</span></div>
       </div>
       <div class="skcard">
         <h3>Distributed Systems</h3>
@@ -261,11 +303,11 @@
       </div>
       <div class="skcard">
         <h3>Databases</h3>
-        <div class="chips"><span class="chip">MySQL</span><span class="chip">Snowflake</span><span class="chip">HBase</span><span class="chip">Redis</span><span class="chip">MongoDB</span></div>
+        <div class="chips"><span class="chip">MySQL</span><span class="chip">MSSQL</span><span class="chip">ClickHouse</span><span class="chip">Snowflake</span><span class="chip">HBase</span><span class="chip">Redis</span><span class="chip">MongoDB</span></div>
       </div>
       <div class="skcard">
         <h3>Cloud &amp; Infra</h3>
-        <div class="chips"><span class="chip">AWS</span><span class="chip">Docker</span><span class="chip">Kubernetes</span><span class="chip">ByteCloud</span></div>
+        <div class="chips"><span class="chip">AWS (EC2, ECS, Lambda, S3, IAM, VPC)</span><span class="chip">Docker</span><span class="chip">Kubernetes</span><span class="chip">ByteCloud</span></div>
       </div>
     </div>
   </div>
@@ -294,7 +336,7 @@
   <div class="wrap">
     <div class="sec-label">Contact</div>
     <h2>Let's build something</h2>
-    <p>Open to opportunities in data infrastructure, distributed systems, and ML platforms. The fastest way to reach me is email.</p>
+    <p>Open to full-time and contract roles in data engineering, distributed systems, and backend development. The fastest way to reach me is email.</p>
     <div class="cta" style="justify-content:center">
       <a class="btn btn-p" href="mailto:kathiriyanirlep@gmail.com">Email me</a>
       <a class="btn btn-s" href="https://www.linkedin.com/in/nirlep-nk12345/" target="_blank" rel="noopener">LinkedIn</a>
@@ -303,7 +345,7 @@
   </div>
 </section>
 
-<footer>© 2026 Nirlep Kathiriya · San Jose, CA · Built with care</footer>
+<footer>© 2026 Nirlep Kathiriya · Union City, CA · Built with care</footer>
 
 </body>
 </html>
